@@ -1,11 +1,14 @@
 import React from 'react';
+import { Container, Col, Row, Button } from 'reactstrap';
+import { NavMenu, Header } from './components';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <p>MeuCshapa</p>
-    </div>
+    <>
+      <NavMenu />
+      <Header />
+    </>
   );
-}
+};
 
 export default App;
