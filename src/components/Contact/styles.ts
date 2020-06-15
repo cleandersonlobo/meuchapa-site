@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Row } from 'reactstrap';
 
 export const Input = styled.input`
   padding: 20px;
@@ -14,8 +15,9 @@ export const Input = styled.input`
   }
 `;
 
-export const ContentInput = styled.div`
+export const ContentInput = styled(Row)`
   display: flex;
+  width: 100%;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;

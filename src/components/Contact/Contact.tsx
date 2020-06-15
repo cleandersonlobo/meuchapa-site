@@ -7,8 +7,12 @@ const Contact: React.FC = () => {
     <Row>
       <Col xs={12} lg={{ size: 8, offset: 2 }}>
         <ContentInput>
-          <Input placeholder="Digite seu e-mail: " />
-          <Button>Enviar</Button>
+          <Col xs={12} lg="auto">
+            <Input placeholder="Digite seu e-mail: " />
+          </Col>
+          <Col xs={12} lg="auto" className="text-center">
+            <Button>Enviar</Button>
+          </Col>
         </ContentInput>
       </Col>
     </Row>
