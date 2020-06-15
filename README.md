@@ -13,13 +13,23 @@
   </p>
   <p>
 </p>
+
+<h3 align="center">
+  <b>Links</b>
+</h3>
+
 <p align="center">
-  <a href="https://meuchapa-d39a9.web.app/"> Site - Meu Chapa
+  <a href="https://www.youtube.com/watch?v=UoUB45ikNcY"> Pitch Meu Chapa - Hackathon CCR
   <p>
 </p>
 
 <p align="center">
-  <a href="https://github.com/rsn86/meuchapa"> App Flutter - Meu Chapa (Rodrigo Schmidt)
+  <a href="https://meuchapa-d39a9.web.app/"> Site - Meu Chapa (by Cleanderson Lobo)
+  <p>
+</p>
+
+<p align="center">
+  <a href="https://github.com/rsn86/meuchapa"> App Flutter - Meu Chapa (by Rodrigo Schmidt)
   <p>
 </p>
 
