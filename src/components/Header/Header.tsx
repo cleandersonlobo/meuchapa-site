@@ -14,10 +14,12 @@ const Header: React.FC = () => {
           />
         </Col>
         <Col xs={12} lg={6}>
-          <Title>O Companheiro de viagem dos caminhoneiros.</Title>
+          <Title>
+            Meu Chapa, um companheiro de viagem para o caminhoneiro.
+          </Title>
           <Subtitle>
-            Aplicativo para acompanhar o caminhoneiro no seu cotidiano e olhar
-            para a sua saúde.
+            Aplicativo para acompanhar o caminhoneiro no seu cotidiano e
+            cuidando da sua saúde física e mental.
           </Subtitle>
           <Row className="align-items-center">
             <Col xs={12} lg="auto" className="text-center text-lg-left">
