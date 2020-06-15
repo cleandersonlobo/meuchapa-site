@@ -4,7 +4,7 @@ import { Row } from 'reactstrap';
 export const Input = styled.input`
   padding: 20px;
   font-size: 1.3rem;
-  background-color: #352ddc;
+  background-color: #b70013;
   outline: none;
   font-weight: bold;
   box-shadow: none;
@@ -34,7 +34,7 @@ export const ContentInput = styled(Row)`
   border-radius: 50px;
   padding-left: 40px;
   padding-right: 40px;
-  background-color: #352ddc;
+  background-color: #b70013;
 `;
 
 export const Button = styled.button`
@@ -42,7 +42,11 @@ export const Button = styled.button`
   border-radius: 50px;
   padding-left: 30px;
   padding-right: 30px;
-  color: #352ddc;
-  outline: none;
+  color: #b70013;
+  outline: none !important;
+  border: none;
   background-color: #ffffff;
+  &:active {
+    border: none;
+  }
 `;
