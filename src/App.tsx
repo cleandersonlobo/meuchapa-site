@@ -28,7 +28,7 @@ const App: React.FC = () => {
         <Business />
       </Container>
       <Container>
-        <Title id="Contato" className="text-center mt-5">
+        <Title id="contato" className="text-center mt-5">
           Contato
         </Title>
         <Subtitle className="text-center pb-3">
