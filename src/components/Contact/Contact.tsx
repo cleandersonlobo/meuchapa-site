@@ -11,15 +11,22 @@ const Contact: React.FC = () => {
         className="text-center text-lg-left"
       >
         <ContentInput className="align-items-center justify-content-around">
-          <Col xs={12} lg="auto" className="text-center text-lg-left">
+          <Col xs={12} lg={8} className="text-center text-lg-left">
             <Input
-              placeholder="Digite seu e-mail:"
+              placeholder="meuemail@chapa.com"
               autoComplete="false"
               autoCapitalize="false"
+              type="email"
             />
           </Col>
-          <Col xs={12} lg="auto" className="text-center py-3 pt-lg-0">
-            <Button className="w-100 w-lg-auto ">Enviar</Button>
+          <Col
+            xs={{ size: 6 }}
+            lg="auto"
+            className="text-center py-3 pt-lg-3 justify-content-center align-items-center"
+          >
+            <Button className="w-100 w-lg-auto align-self-center">
+              <span>Enviar</span>
+            </Button>
           </Col>
         </ContentInput>
       </Col>

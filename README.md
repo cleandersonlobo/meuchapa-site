@@ -41,6 +41,11 @@
 - Firebase
 - Styled-Components
 
+<p align="center">
+  Meu Chapa, um companheiro de viagem para o caminhoneiro.
+  <img src="./public/assets/images/Grupo102.png" alt="Logo" />
+</p>
+
 
 ## Author
 

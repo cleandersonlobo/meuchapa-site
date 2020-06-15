@@ -32,7 +32,7 @@ const App: React.FC = () => {
           Contato
         </Title>
         <Subtitle className="text-center pb-3">
-          Deixei seu e-mail que iremos entrar em contato.
+          Deixe seu e-mail para saber mais
         </Subtitle>
         <Contact />
       </Container>
