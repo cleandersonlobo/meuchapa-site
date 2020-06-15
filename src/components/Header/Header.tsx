@@ -21,7 +21,11 @@ const Header: React.FC = () => {
           </Subtitle>
           <Row className="align-items-center">
             <Col xs={12} lg="auto" className="text-center text-lg-left">
-              <ButtonHelper color="danger" className="rounded">
+              <ButtonHelper
+                color="danger"
+                className="rounded"
+                href="#funcionalidades"
+              >
                 Saiba Mais
               </ButtonHelper>
             </Col>
@@ -30,7 +34,11 @@ const Header: React.FC = () => {
               lg="auto"
               className="text-center mt-4 mt-lg-0 text-lg-left"
             >
-              <ButtonIcon color="link">
+              <ButtonIcon
+                color="link"
+                target="blank"
+                href="https://www.youtube.com/watch?v=UoUB45ikNcY&rel=0&utm_source=broadcast&utm_medium=email&utm_campaign=Transactional-Publish-success"
+              >
                 <AiFillPlayCircle size={30} color="#FDD051" />
                 <span>Assista Video</span>
               </ButtonIcon>
