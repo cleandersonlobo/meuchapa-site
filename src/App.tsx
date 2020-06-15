@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container } from 'reactstrap';
+import { Container, Button } from 'reactstrap';
+import { AiFillGithub } from 'react-icons/ai';
 import { NavMenu, Header, Contact, Features, Business } from './components';
 import { Title, Subtitle } from './styles/ui';
 
@@ -37,6 +38,16 @@ const App: React.FC = () => {
       </Container>
       <footer className="mt-5">
         <NavMenu />
+        <Container>
+          <Button
+            color="link"
+            href="https://github.com/cleandersonlobo/meuchapa-site"
+            className="d-flex align-items-center justify-content-end text-dark"
+          >
+            <AiFillGithub className="mr-2" />
+            Cleanderson Lobo
+          </Button>
+        </Container>
       </footer>
     </>
   );
