@@ -25,10 +25,10 @@ const NavMenu: React.FC = () => {
             <NavLink href="/">Saiba Mais</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/">Como funciona</NavLink>
+            <NavLink href="#funcionalidades">Como funciona</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/">Contato</NavLink>
+            <NavLink href="#contato">Contato</NavLink>
           </NavItem>
         </Nav>
       </Navbar>
