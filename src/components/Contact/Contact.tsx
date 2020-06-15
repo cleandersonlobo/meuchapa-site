@@ -4,10 +4,10 @@ import { Input, ContentInput, Button } from './styles';
 
 const Contact: React.FC = () => {
   return (
-    <Row>
-      <Col xs={12} lg={{ size: 8, offset: 2 }}>
-        <ContentInput>
-          <Col xs={12} lg="auto">
+    <Row className="justify-content-center">
+      <Col xs={12} lg={{ size: 8, offset: 2 }} className="text-center">
+        <ContentInput className="align-items-center justify-content-around">
+          <Col xs={12} lg="auto" className="text-center text-lg-left">
             <Input
               placeholder="Digite seu e-mail:"
               autoComplete="false"

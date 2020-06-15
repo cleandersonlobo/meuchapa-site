@@ -25,15 +25,8 @@ export const Input = styled.input`
 `;
 
 export const ContentInput = styled(Row)`
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
   padding: 10px;
   border-radius: 50px;
-  padding-left: 40px;
-  padding-right: 40px;
   background-color: #b70013;
 `;
 
