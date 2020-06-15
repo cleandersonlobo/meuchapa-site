@@ -37,7 +37,7 @@ const App: React.FC = () => {
         <Contact />
       </Container>
       <footer className="mt-5">
-        <NavMenu />
+        <NavMenu isFooter />
         <Container>
           <Button
             color="link"
