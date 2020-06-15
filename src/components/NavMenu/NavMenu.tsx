@@ -6,6 +6,8 @@ import {
   NavItem,
   NavLink,
   Navbar,
+  Row,
+  Col,
 } from 'reactstrap';
 
 const NavMenu: React.FC = () => {
@@ -21,15 +23,23 @@ const NavMenu: React.FC = () => {
           />
         </NavbarBrand>
         <Nav>
-          <NavItem>
-            <NavLink href="#funcionalidades">Como funciona</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#empresa">Para empresas</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="#contato">Contato</NavLink>
-          </NavItem>
+          <Row>
+            <Col xs={12} lg="auto" className="text-center">
+              <NavItem>
+                <NavLink href="#funcionalidades">Como funciona</NavLink>
+              </NavItem>
+            </Col>
+            <Col xs={12} lg="auto" className="text-center">
+              <NavItem>
+                <NavLink href="#empresa">Para empresas</NavLink>
+              </NavItem>
+            </Col>
+            <Col xs={12} lg="auto" className="text-center">
+              <NavItem>
+                <NavLink href="#contato">Contato</NavLink>
+              </NavItem>
+            </Col>
+          </Row>
         </Nav>
       </Navbar>
     </Container>

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, Col, Row } from 'reactstrap';
-import { NavMenu, Header, Features, Business } from './components';
+import { Container } from 'reactstrap';
+import { NavMenu, Header, Contact, Features, Business } from './components';
 import { Title, Subtitle } from './styles/ui';
 
 const App: React.FC = () => {
@@ -26,6 +26,18 @@ const App: React.FC = () => {
         </Subtitle>
         <Business />
       </Container>
+      <Container>
+        <Title id="Contato" className="text-center mt-5">
+          Contato
+        </Title>
+        <Subtitle className="text-center pb-3">
+          Deixei seu e-mail que iremos entrar em contato.
+        </Subtitle>
+        <Contact />
+      </Container>
+      <footer className="mt-5">
+        <NavMenu />
+      </footer>
     </>
   );
 };
