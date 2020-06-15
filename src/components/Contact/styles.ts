@@ -10,8 +10,17 @@ export const Input = styled.input`
   box-shadow: none;
   color: #ffffff;
   border: none;
-  :-moz-placeholder {
-    color: white;
+  ::-webkit-input-placeholder {
+    /* Edge */
+    color: #cececee3;
+  }
+
+  :-ms-input-placeholder {
+    color: #cececee3;
+  }
+
+  ::placeholder {
+    color: #cececee3;
   }
 `;
 
