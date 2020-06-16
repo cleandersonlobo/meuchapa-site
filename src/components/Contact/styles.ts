@@ -15,7 +15,7 @@ export const Input = styled.input`
   border: none;
   opacity: 0.8;
 
-  &:focus {
+  &:focus:not([value='']) {
     opacity: 1;
   }
 
