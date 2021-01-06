@@ -12,7 +12,7 @@
     "@types/react-dom": "^16.9.0",
     "@types/reactstrap": "^8.4.2",
     "@types/styled-components": "^5.1.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
     "firebase": "^7.15.1",
